@@ -52,3 +52,29 @@ result = firstNumber + secondNumber
 print("The result is: " + String( result ))
 
 // ============================================================================================
+
+//Arrays
+var array = [ "yes", "no", "maybe" ]
+print(array[0]) // [0] = yes
+print(array[1]) // [1] = no
+print(array[2]) // [2] = maybe
+
+//String
+var stringArray: [String] // []
+stringArray = ["yes"] // [ "yes" ]
+stringArray = ["no"] // [ "no" ]
+stringArray += ["maybe"] // [ "no", "maybe" ]
+
+stringArray.removeAll() // []
+stringArray += ["yes"] // [ "yes" ]
+stringArray.append("no") // [ "yes", "no" ]
+
+stringArray.remove(at: 0) // [ "no" ]
+
+//Int
+var integerArray: [Int] = [] // []
+integerArray.append(0) // [ 0 ]
+integerArray.append(1) // [ 0, 1 ]
+
+// ============================================================================================
+
