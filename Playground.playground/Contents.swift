@@ -207,8 +207,29 @@ print( ageResult ) // AUTHORIZED ACCESS
 - Loop - for
 */
 
-// for var i in 0..<5 {
+//    for var i in 0..<5 {
 //     print("Number " + String( i ))
-// }
+//    }
 
-var commentary: [String]
+//    var commentaries: [String] = []
+//    commentaries.append("So cool")
+//    commentaries.append("Lol")
+//    commentaries.append("wow")
+//
+//    for var commentary in commentaries {
+//        print(commentary)
+//    }
+
+//    var count: Int = 0
+//
+//    while count < 5 {
+//        print("count is: " + String( count ))
+//        count += 1
+//    }
+
+//    var count: Int = 0
+//
+//    repeat {
+//        print("count is: " + String( count ))
+//        count += 1
+//    } while count < 5
