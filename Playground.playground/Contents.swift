@@ -233,3 +233,46 @@ print( ageResult ) // AUTHORIZED ACCESS
 //        print("count is: " + String( count ))
 //        count += 1
 //    } while count < 5
+
+// ============================================================================================
+
+/*
+ Functions
+*/
+
+func multiply(a: Int, b: Int) -> Int {
+    return a * b
+}
+
+//    var y: Int = multiply(a: 3, b: 3)
+//    print(y)
+
+func getAge(year: Int) -> Int {
+    return Calendar.current.component(.year, from: Date()) - year
+}
+
+//    var personAge: Int = getAge( year: 2002)
+//    print( age )
+
+// ============================================================================================
+
+/*
+- Optional
+*/
+
+//    var value1: Int = 10
+//    var value2: Int? = 2
+//    var resultCalculation: Int = 0
+//    // ? declare this attribute is optional
+//
+//    // 1
+//    if let testedValue = value2 { // test if the attribute has value
+//        resultCalculation = value1 * testedValue
+//    }
+//
+//    // 2
+//    resultCalculation = value1 * value2! // ! enseres the value2 have a value, because its optional
+//
+//    print(resultCalculation)
+
+
