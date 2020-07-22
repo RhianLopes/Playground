@@ -293,19 +293,50 @@ class House {
 var home = House(color: "red")
 var home2 = House(color: "blue")
 
-class Dog {
+//    class Dog {
+//        
+//        var color: String
+//
+//        init( color: String ) {
+//            self.color = color
+//        }
+//        
+//        func run() -> String {
+//            return "Zummm"
+//        }
+//
+//        func bark() -> String {
+//            return "Au Au!"
+//        }
+//    }
+
+// ============================================================================================
+
+class Animal {
     
     var color: String
     
-    init( color: String ) {
+    var size: String
+    
+    var lenght: String
+    
+    init(color: String, size: String, lenght: String) {
         self.color = color
+        self.size = size
+        self.lenght = lenght
     }
     
-    func run() -> String {
-        return "Zummm"
+    func sleep() -> String {
+        return "Z z z..."
     }
-    
+}
+
+class Dog: Animal {
+
     func bark() -> String {
         return "Au Au!"
     }
 }
+
+var doge = Dog(color: "", size: "", lenght: "")
+doge.sleep()
