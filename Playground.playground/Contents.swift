@@ -275,4 +275,37 @@ func getAge(year: Int) -> Int {
 //
 //    print(resultCalculation)
 
+// ============================================================================================
 
+class House {
+    
+    var color: String
+    
+    init( color: String ) {
+        self.color = color
+    }
+    
+    func getColor() -> String {
+        return self.color
+    }
+}
+
+var home = House(color: "red")
+var home2 = House(color: "blue")
+
+class Dog {
+    
+    var color: String
+    
+    init( color: String ) {
+        self.color = color
+    }
+    
+    func run() -> String {
+        return "Zummm"
+    }
+    
+    func bark() -> String {
+        return "Au Au!"
+    }
+}
